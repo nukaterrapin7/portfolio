@@ -8,17 +8,19 @@ section {
 }
 
 .hero {
-    background-color: #1c1d25;
+    /* background-color: #1c1d25; */
     height: 100vh;
     color: white;
-    font-size: 40px;
+    font-size: 40px;    
+    background-image: url(../src/images/space.jpeg);
 }
 
 footer {
-    background-color: black;
+    /* background-color: black; */
     color: white;
     text-align: center;
     padding: 80px;
+    background-image: url(../src/images/space.jpeg);
 }
 
 nav {
@@ -191,7 +193,7 @@ a {
 
     ul {
         display: none;
-        background-color: #292a37;
+        background-color: black;
         margin: 30px;
     }
 
@@ -202,7 +204,7 @@ a {
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #292a37;
+        background-color: black;
     }
 
     .logo {
