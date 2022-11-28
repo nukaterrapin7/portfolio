@@ -8,15 +8,13 @@ section {
 }
 
 .hero {
-    /* background-color: #1c1d25; */
-    height: 100vh;
+        height: 100vh;
     color: white;
     font-size: 40px;    
     background-image: url(../src/images/space.jpeg);
 }
 
 footer {
-    /* background-color: black; */
     color: white;
     text-align: center;
     padding: 80px;
@@ -57,6 +55,11 @@ p {
 
 .subtext {
     font-size: 15px;
+    height: 100px;
+}
+
+.subtext-two {
+    font-size: 20px;
 }
 
 .hero-box {
@@ -93,15 +96,6 @@ p {
     color: white;
 }
 
-.button:hover {
-    background-color: #ef744b;
-}
-
-.button:active {
-    background-color: #a9a9a9;
-    color: #808080
-}
-
 .socials {
     padding-bottom: 200px;
 }
@@ -135,7 +129,7 @@ p {
 
 .project-card {
     width: 300px;
-    height: 500px;
+    height: 550px;
     box-shadow: 5px 5px 20px darkslategrey;
 }
 
@@ -145,8 +139,8 @@ p {
 }
 
 .project-image {
-    width: 250px;
-    height: 275px;
+    width: 200px;
+    height: 225px;
     margin-top: 25px;
 }
 
@@ -207,7 +201,21 @@ a {
         background-color: black;
     }
 
-    .logo {
-        display: none;
+    /* .nav:hover {
+        background-color: #ef744b;
     }
+    
+    .nav:active {
+        background-color: #a9a9a9;
+        color: #808080
+    }  */
+
+    /* .logo {
+        display: none;
+    } */
+}
+
+.message {
+    height: 200px;
+    width: 200px;
 }
